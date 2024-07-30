@@ -64,13 +64,13 @@ static const char unknown_str[] = "n/a";
  * wifi_perc           WiFi signal in percent          interface name (wlan0)
  */
 static const struct arg args[] = {
-	{ cpu_perc,	"^c#97d5b3^|󰻠 CPU %s%% ",		NULL},
+	{ cpu_perc,	"^c#97d5b3^|   %s%% ",			NULL},
 	{ cpu_freq,	"^c#97d5b3^(%s) ",			NULL},
-	{ ram_perc,	"^c#acb9e8^| RAM %s%% ",		NULL},
+	{ ram_perc,	"^c#acb9e8^|   %s%% ",			NULL},
 	{ ram_used,	"^c#acb9e8^(%s of",			NULL},
 	{ ram_total,	"^c#acb9e8^ %s) ",			NULL},
-	{ disk_perc,	"^c#f5d7dc^| Disk %s%% ",	 	 "/"},
+	{ disk_perc,	"^c#f5d7dc^|   %s%% ",			 "/"},
 	{ disk_used,	"^c#f5d7dc^(%s of ",			 "/"},
 	{ disk_total,	"^c#f5d7dc^%s) ",			 "/"},
-	{ datetime,	"^c#b0dff9^|󱑍 %s",	    "%T %a %b/%d/%Y"},
+	{ datetime,	"^c#b0dff9^|   %s",	    "%a %T %b/%d/%Y"},
 };
